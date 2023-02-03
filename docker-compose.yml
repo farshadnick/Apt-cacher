@@ -7,7 +7,7 @@ services:
     - "3142:3142"
     volumes:
     - apt-cacher-ng:/var/cache/apt-cacher-ng
-    - ./config:/etc/apt-cacher-ng/acng.conf
+    - ./config/acng.conf:/etc/apt-cacher-ng/acng.conf
     restart: always
 volumes:
   apt-cacher-ng:
