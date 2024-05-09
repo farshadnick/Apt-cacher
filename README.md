@@ -15,7 +15,7 @@ Client Side
 =========================
 we can config our Client with Two Way 
 
-**First Way **
+**First Way**
 Send All APT Repository Requests to the Proxy Section By Creating ** /etc/apt/apt.conf.d/02proxy** File  and Put Following Section To IT :
 
 **Acquire::http { Proxy "http://192.168.110.200:3142"; };
@@ -23,7 +23,7 @@ Send All APT Repository Requests to the Proxy Section By Creating ** /etc/apt/ap
 
 **OR**
 
-**Second Way **
+**Second Way**
 
 Appending your APT Cacher URL:PORT to Your APT Repository Like:
 
@@ -33,8 +33,8 @@ deb http://192.168.110..200:3142/HTTPS///get.docker.com/ubuntu docker main
 
 
 
-**Main Article is from :
+Main Article is from :
 https://packops.dev 
 
-author : Farshad Nick**
+author : Farshad Nick 
 
